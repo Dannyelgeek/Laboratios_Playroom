@@ -1,0 +1,45 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .slider-container {
+    margin-top: 20px;
+    width: auto; /* Set the desired width for the slider */
+    margin: 0 auto; /* Center the slider */
+    position: relative; /* Set the parent container as a reference for absolute positioning */
+  }
+  .carousel-inner {
+    height: 300px; /* Set the desired height for the slider */
+  }
+  .carousel-inner img {
+    object-fit: cover; /* Ensure the image covers the entire slider */
+    height: 100%;
+    width: 100%;
+  }
+  .search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+  }
+  .box {
+    background-color: #F8F9FA;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .col-md-4 .box {
+    background-color: aqua;
+  }

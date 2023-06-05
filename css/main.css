@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+}
+
+.head-bar {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #aaa;
+}
+
+.head-bar picture {
+    width: 50px;
+    height: 50px;
+    justify-content: left !important;
+}
+
+.head-bar picture img {
+    width: 80%;
+}
+
+.btn {
+    width: 45px;
+    height: 50px;
+}
+
+.slider-container {
+    margin-top: 20px;
+    width: auto; /* Set the desired width for the slider */
+    margin: 0 auto; /* Center the slider */
+    position: relative; /* Set the parent container as a reference for absolute positioning */
+}
+
+.carousel-inner {
+    height: 500px; /* Set the desired height for the slider */
+}
+
+.carousel-inner img {
+    object-fit: cover; /* Ensure the image covers the entire slider */
+    height: 100%;
+    width: 100%;
+}
+
+.search-bar {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+
+.select-tag {
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+}
